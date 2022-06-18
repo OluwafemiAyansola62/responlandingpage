@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.box {
+  padding: 50px;
+  margin-left: 10px;
+  align-items: center;
+}
+
+.box h1 {
+  color: hsl(192, 100%, 9%)
+  ;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.box p {
+  Font-size: 15px;
+  color: hsl(208, 11%, 55%);
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+}
+
+.box button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+  border: 2px;
+  border-width: 80px;
+  width: 200px;
+}
+
+.hero {
+  display: flex;
+  background-image: url(bg-hero-mobile.svg);
+  height: 70vh;
+  background-color: hsl(193, 100%, 96%);
+  width: 100%;
+}
+
+.topB button {
+  padding: 10px;
+  width: 160px;
+  background-color: white;
+  color: hsl(192, 100%, 9%);
+  border-radius: 25px;
+  margin-top: 20px;
+  border: 2px;
+  margin-left: 2px;
+  margin-right: 10px;
+  
+}
+
+.mockup img {
+  display: flex;
+  padding-top: 100px;
+  margin-left: 150px;
+}
+
+.logo img {
+  padding-bottom: 30px;
+}
+
+.grow {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  border-radius: 10px;
+  margin: 40px;
+  width: 94%;
+  background-color: hsl(193, 100%, 96%);
+  
+}
+
+.tg {
+  flex: 30%;
+  padding-top: 80px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  width: 30%;
+  align-items: center;
+}
+
+.tg h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+}
+
+.tg p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+}
+
+.igt {
+  flex: 20%;
+  margin-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.ifc {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  border-radius: 10px;
+  margin: 40px;
+  width: 94%;
+  background-color: hsl(193, 100%, 96%);
+}
+
+.ifc img {
+  margin-top: 20px;
+  flex: 30%;
+  margin-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+}
+
+
+.flowing {
+  flex: 20%;
+  padding-top: 80px;
+  padding-left: 400px;
+  padding-bottom: 60px;
+  width: 30%;
+  align-items: center;
+}
+
+.flowing h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+}
+
+.flowing p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+}
+
+.users {
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  border-radius: 10px;
+  margin: 40px;
+  width: 94%;
+  background-color: hsl(193, 100%, 96%);
+}
+
+.youruser {
+  flex: 30%;
+  padding-top: 80px;
+  padding-left: 60px;
+  padding-bottom: 60px;
+  width: 30%;
+  align-items: center;
+}
+
+.youruser h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+}
+
+.youruser p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+}
+
+.iyu img {
+  margin-top: 20px;
+  flex: 30%;
+  margin-right: 110px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 60px;
+}
+
+.ready {
+  display: flex;
+  flex-wrap: wrap;
+  height: 30vh;
+  border-radius: 10px;
+  margin-left: 30%;
+  /*margin: 40px;*/
+  width: 40%;
+  background-color: hsl(193, 100%, 96%);
+  /*margin-top: 40px;*/
+}
+
+.head h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+  padding: 20px 40px 60px 80px;
+  margin-bottom: -20px;
+}
+
+.head button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 20px ;
+  border-radius: 30px;
+  margin: auto;
+  border: 2px;
+  border-width: 20px;
+  width: 240px;
+  margin-left: 170px;
+  margin-right: 170px;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  height: 60vh;
+  width: 100%;
+  background-color: hsl(192, 63%, 26%);;
+}
+
+footer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footlogo {
+  margin-top: 60px;
+  margin-bottom: 340px;
+}
+
+.Loc {
+  margin-top: -260px;
+  margin-left: 46px;
+}
+
+.Loc p{
+  padding: 10px;
+  color: white;
+}
+
+.about {
+  margin-top: -260px;
+  margin-left: 70px;
+}
+
+.about p{
+  padding: 10px;
+  color: white;
+}
+
+.car {
+  margin-top: -260px;
+  margin-left: 70px;
+}
+
+.car p{
+  padding: 10px;
+  color: white;
+}
+
+.soc {
+  margin-top: -260px;
+  margin-left: 70px;
+}
+
+.soc i {
+  display: inline;
+  margin-top: -200px;
+  margin-left: 70px;
+}
+
+.para {
+  margin-top: -220px;
+  margin-left: 80px;
+  padding: 10px;
+  color: white;
+}
+
+@media screen and (min-width:375px) {
+
+  .box {
+    display: block;
+  }
+  .topB button {
+  flex-direction: column;
+  }
+
+
+}
