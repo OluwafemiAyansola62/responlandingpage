@@ -1,4 +1,4 @@
-* {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -57,7 +57,11 @@
   border: 2px;
   margin-left: 2px;
   margin-right: 10px;
-  
+  transition-duration: 1000ms;
+}
+
+.topB button:hover {
+  background-color: hsl(208, 11%, 55%);
 }
 
 .mockup img {
@@ -202,10 +206,10 @@
   height: 30vh;
   border-radius: 10px;
   margin-left: 30%;
-  /*margin: 40px;*/
+
   width: 40%;
   background-color: hsl(193, 100%, 96%);
-  /*margin-top: 40px;*/
+  margin-top: 40px;
 }
 
 .head h2 {
@@ -227,6 +231,11 @@
   width: 240px;
   margin-left: 170px;
   margin-right: 170px;
+  transition-duration: 1000ms;
+}
+
+.head button:hover {
+    background-color: hsl(208, 11%, 55%);
 }
 
 .footer {
@@ -295,14 +304,243 @@ footer {
   color: white;
 }
 
-@media screen and (min-width:375px) {
+@media screen and (max-width:375px) {
+  .body {
+    background-color: red;
+  }
+  
+  .hero {
+    display: flex;
+    background-image: url(bg-hero-mobile.svg);
+    height: 70vh;
+    background-color: hsl(193, 100%, 96%);
+    width: 375px;
+  }
 
   .box {
-    display: block;
+    flex-direction: column;
+    width: 375px;
   }
+  
+  .box h1 {
+    color: hsl(192, 100%, 9%)
+    ;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    font-weight: 600;
+  }
+
+  .box p {
+    Font-size: 15px;
+  color: hsl(208, 11%, 55%);
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  }
+
+  .box button {
+  background-color: hsl(322, 100%, 66%);
+  color: white;
+  padding: 10px;
+  border-radius: 30px;
+  margin-top: 20px;
+  border: 2px;
+  border-width: 80px;
+  width: 200px;
+  }
+
+  .mockup img {
+  flex-direction: column; 
+  padding-top: 100px;
+  width: 90px;
+  height: 100px;
+  }
+
   .topB button {
-  flex-direction: column;
+  padding: 5px;
+  background-color: white;
+  color: hsl(192, 100%, 9%);
+  border-radius: 15px;
+  margin-top: 10px;
+  border: 1px;
+  
   }
 
+  .grow {
+  margin-top: 20px; 
+  display: flex;
+  flex-wrap: wrap;
+  height: 50vh;
+  border-radius: 10px;
+  width: 375px;
+  background-color: hsl(193, 100%, 96%);
+  }
 
+  .tg p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(208, 11%, 55%);
+  }
+
+  .tg h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: hsl(192, 100%, 9%);
+  }
+
+  .igt img {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 5px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  }
+
+  .ifc {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+    border-radius: 10px;
+    width: 375px;
+    background-color: hsl(193, 100%, 96%);
+    margin-top: 20px;
+  }
+
+  .flowing p {
+  margin-top: 20px;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: hsl(208, 11%, 55%);
+  }
+
+  .flowing h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%); 
+  }
+
+  .users {
+    display: flex;
+    flex-wrap: wrap;
+    height: 50vh;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 375px;
+    background-color: hsl(193, 100%, 96%);
+  }
+
+  .youruser h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+  }
+  
+  .youruser p {
+    margin-top: 20px;
+    font-size: 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: hsl(208, 11%, 55%);
+  }
+
+  .ready {
+    display: flex;
+    flex-wrap: wrap;
+    height: 25vh;
+    border-radius: 10px;
+    width: auto;
+    background-color: hsl(193, 100%, 96%);
+    margin-top: 40px;
+    margin-left: 15px;
+  }
+
+  .head h2 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: hsl(192, 100%, 9%);
+    padding: 20px 40px 60px 80px;
+    margin-bottom: -20px;
+  }
+  
+  .head button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 20px ;
+    border-radius: 30px;
+    border: 2px;
+    border-width: 20px;
+    width: 240px;
+    margin-left: 50px;
+  }
+
+  .footer {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    width: 100%;
+    background-color: hsl(192, 63%, 26%);;
+  }
+  
+  footer {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .footlogo {
+    margin-top: 60px;
+    margin-bottom: 120px;
+  }
+
+  .Loc {
+    margin-top: -320px;
+    margin-left: 46px;
+  }
+  
+  .Loc p{
+    padding: 10px;
+    color: white;
+  }
+  
+  .about {
+    margin-top: -200px;
+    margin-left: 46px;
+  }
+
+  .about p {
+  padding: 10px;
+  color: white;
+  }
+
+  .car {
+    margin-top: -20px;
+    margin-left: -110px;
+  }
+
+  .car p{
+    padding: 10px;
+    color: white;
+  }
+
+  .soc {
+    margin-top: 180px;
+    margin-left: -110px;
+  }
+
+  .soc i {
+    display: inline;
+    margin-top: -180px;
+    margin-left: 20px;
+    padding: 10px;
+  }
+
+  .para {
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 10px;
+    color: white;
+  }
 }
